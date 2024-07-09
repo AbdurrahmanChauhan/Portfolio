@@ -506,7 +506,34 @@ main {
 
 .about-text p { margin-bottom: 15px; }
 
+/* Adjust the styling for the download section */
+.downloads {
+  text-align: center;
+  margin-top: 20px;
+}
 
+/* Update the title styling if needed */
+.download-title {
+  margin-bottom: 10px;
+}
+
+/* Style the buttons */
+.download-btn {
+  background-color: #FFD700; /* Golden color */
+  color: #000; /* Black text */
+  border: 2px solid #000; /* Black border */
+  padding: 10px 20px;
+  margin: 0 10px; /* Add margin between buttons */
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  display: inline-block; /* Ensure buttons are inline */
+}
+
+/* Change the background color on hover */
+.download-btn:hover {
+  background-color: #DAA520; /* Darker golden color */
+}
 
 /**
  * #service 

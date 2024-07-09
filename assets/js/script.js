@@ -1,6 +1,13 @@
 'use strict';
 
+// Add this JavaScript to handle the download functionality
+document.getElementById('download-resume').addEventListener('click', function() {
+  window.location.href = '/assets/documents/Resume_Abdurrahman_Chauhan.pdf';
+});
 
+document.getElementById('download-cv').addEventListener('click', function() {
+  window.location.href = '/assets/documents/CV_Abdurrahman_Chauhan.pdf';
+});
 
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
